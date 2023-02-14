@@ -6,7 +6,7 @@
   "colors": {
     "accentColor": "#568AF2",
     "backgroundColor": "#21252b",
-    "borderColor": "#333841",
+    "borderColor": "#21252b",
     "infoForeground": "#7e8491",
     "foregroundColor": "#abb2bf",
     "notificationBackground": "#3d424b",
@@ -41,12 +41,14 @@
 
       "errorForeground": "#cd3359",
 
-      "borderColor": "#333841",
+      "borderColor": "#21252b",
+      "lineSeparatorColor": "#21252b",
+
       "disabledBorderColor": "#2d3137",
       "focusColor": "backgroundColor",
       "focusedBorderColor": "accentColor",
 
-      "separatorColor": "#32363c"
+      "separatorColor": "backgroundColor"
     },
 
     "ActionButton": {
@@ -103,8 +105,8 @@
     },
 
     "Borders": {
-      "color": "#333841",
-      "ContrastBorderColor": "#333841"
+      "color": "borderColor",
+      "ContrastBorderColor": "borderColor"
     },
 
     "ComboBox": {
@@ -325,9 +327,12 @@
     },
 
     "RunWidget": {
-      "foreground": "#eef3ff",
-      "separatorColor": "#eef3ff",
-      "background": "accentColor"
+      "foreground": "#ffffff",
+      "background": "backgroundColor",
+      "runningBackground": "#07390b",
+      "hoverBackground": "#00000019",
+      "pressedBackground": "#00000028",
+      "separatorColor": "#152031"
     },
 
     "SearchEverywhere": {
